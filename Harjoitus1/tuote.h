@@ -10,6 +10,7 @@ public:
 	void tulosta();
 	void laskeUusiHinta(double alePros);
 	double annaHinta();
+	void muutaHinta(double uusiHinta);
 private:
 	std::string nimi;
 	double hinta;

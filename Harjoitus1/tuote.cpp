@@ -25,3 +25,11 @@ double Tuote::annaHinta()
 {
 	return hinta;
 }
+
+void Tuote::muutaHinta(double uusiHinta)
+{
+	if (uusiHinta > 0)
+		hinta = uusiHinta;
+	else
+		std::cout << "PIM! Hinta virheellinen: < 0." << std::endl << std::endl;
+}
