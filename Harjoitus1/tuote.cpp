@@ -33,3 +33,10 @@ void Tuote::muutaHinta(double uusiHinta)
 	else
 		std::cout << "PIM! Hinta virheellinen: < 0." << std::endl << std::endl;
 }
+
+std::ostream& operator<<(std::ostream &os, const Tuote &tuote)
+{
+	os << "KUHA TESTAAN ÄÖLÄÖLÄ CTHULUHU " << std::endl;
+	
+	return os;
+}
